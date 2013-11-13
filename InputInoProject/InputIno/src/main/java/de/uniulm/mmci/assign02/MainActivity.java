@@ -3,7 +3,9 @@ package de.uniulm.mmci.assign02;
 import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
+import android.content.Context;
 import android.os.Bundle;
+import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,6 +15,15 @@ import android.os.Build;
 
 public class MainActivity extends Activity {
     // CHAAAAAAAANGE
+    // Jehn
+    // basstart
+    //fick dich git und android studio
+
+    @Override
+    public View onCreateView(String name, Context context, AttributeSet attrs) {
+        return super.onCreateView(name, context, attrs);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
