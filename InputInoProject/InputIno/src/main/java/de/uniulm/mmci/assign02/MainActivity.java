@@ -13,6 +13,10 @@ import android.os.Build;
 
 public class MainActivity extends Activity {
     // CHAAAAAAAANGE
+    //gar gar nix
+    //hier is ein scheiss change ihr pisser!!!!!!!!!!!!!!!!!
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
