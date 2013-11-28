@@ -1,0 +1,101 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Vorlage für Seminararbeiten im Institut für Verteilte Systeme
+% 
+% HINWEISE
+% 
+%  1. Bei Nutzung für Seminarausarbeitungen darf insbesondere die Schriftart
+%     und -größe nicht angepasst werden.
+%  2. Die Vorlage unterstützt deutsche und englische Ausarbeitungen durch
+%     Anpassung der babel Paketoptionen.
+%  3. Folgende Angaben sollen angepasst werden:
+%     - Titel der Arbeit
+%     - Name und E-Mail-Adresse des Autors
+%     - Titel des Seminars
+%     - Semester
+%  4. Die Vorlage sieht eine Lizensierung unter CC-BY-SA vor, die jedoch
+%     nicht verpflichtend ist. Falls nicht gewünscht, bitte alle \thanks
+%     Befehle auskommentieren.
+%     Die gewählte Lizenz (CC-BY-SA) ist kompatibel mit einer möglichen
+%     Veröffentlichung auf dem Volltextserver der Uni Ulm
+%     (http://vts.uni-ulm.de).
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Based on the IEEE Journal style.
+\documentclass[10pt,a4paper,compsoc]{IEEEtran}
+
+\usepackage{graphicx}
+\usepackage[cmex10]{amsmath}
+\usepackage[ngerman]{babel} % Deutsche Ausarbeitung
+% \usepackage[USenglish]{babel} % Englische Ausarbeitung
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+
+\newcommand\IEEEfirstsection[1]{%
+  \noindent\raisebox{2\baselineskip}[0pt][0pt]%
+  {\parbox{\columnwidth}{#1%
+  \global\everypar=\everypar}}%
+  \vspace{-1\baselineskip}\vspace{-\parskip}\par
+}
+
+\newcommand\cclicense{{\normalfont\sffamily\bfseries CC-BY-SA}}
+\IfFileExists{ccicons.sty}{%
+\usepackage{ccicons}
+\renewcommand\cclicense{\ccbysa}
+}
+
+\begin{document}
+
+\title{Extrem Text Input Methods}
+
+\author{%
+\IEEEauthorblockN{Sebastian Hartwig, Kaith Menken, Daniel Eischer, Johann Albach}\\
+\IEEEauthorblockA{\url{sebastian.hartwig@uni-ulm.de}}%
+\thanks{%
+%\cclicense{}
+%Diese Arbeit steht unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen %3.0 Deutschland Lizenz.}%
+%\thanks{\url{http://creativecommons.org/licenses/by-sa/3.0/de/}}%
+}
+}
+\IEEEpubid{\sffamily%
+\makebox[\columnwidth]{\hfill Titel des Seminars}%
+\makebox[\columnsep]{$\cdot$}%
+\makebox[\columnwidth]{WS 2013/2014,
+Institut für Medieninformatik, Universit"at Ulm\hfill}}
+
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+These days our society depends increasingly on micro computers. That is because of a wide range of functionality integrated in mobile devices. Hence, usability and performance are importand factors which are profitable to develop. Since the idea of mobile devices is communication there has been many researches in terms of text input improvement. Short message service and electronic mails aren't the only applicatios anymore using text input methods. Fault tolerance text input methods are hot topics of mobile software developement. Mobile devices that correct misspelled text input by it-self for the user are highly in demand.
+We proceed on the assumption that in futur the usage of mobile devices is going be more prompt than now. Meaning mobile devices will leave our pockets and integrate in our clothes or even will be placed on our body.
+The idea is wearing, for instance a smartphone attached to a bracelet on our wrists. Providing instant access to the smartphone. In our approach we try to realise a text input method for single-handed mobile device usage.
+\end{abstract}%
+}
+
+% make the title area
+\maketitle
+
+\IEEEfirstsection{%
+\section{Introduction}
+\label{sec:introduction}
+}
+
+\IEEEPARstart{S}hort messages shape our daly life. Every smartphone user is writing thousands of short texts every week. Therefor software that supports users while typing is important. The tendency for futur smartphones is to be accessable more easily. Micro computers that are integrated in clothes or wearable smartphones providing instant access. Those developements require different implementation of text input methods enableing a single-handed input.
+
+Our approach targets a device attached to the wrist of the user. Placed at the wrist of a user those devices are easilie reachable. The only challange is to compensate for a single-handed input that could in the worst case negate the promptness of our approach. Therefor we have to rethink the softkeyboard layout to lower the space needed to show up virtual key buttons.
+
+Another feature in our approach are swype gestures. Thereby our keyboard enables advanced input options like special characters and numbers. Also no space bar is planed to realise as a single butten, furthermore a single gesture handles spaces. prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\section{Spannendes Thema}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\bibliographystyle{IEEEtranS}
+\bibliography{references}
+
+\end{document}
