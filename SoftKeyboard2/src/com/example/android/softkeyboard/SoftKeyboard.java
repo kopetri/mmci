@@ -128,6 +128,8 @@ public class SoftKeyboard extends InputMethodService
         return mCandidateView;
     }
 
+
+
     /**
      * This is the main point where we do our initialization of the input method
      * to begin operating on an application.  At this point we have been
