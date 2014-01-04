@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keywidth">23dp</dimen>
+    <dimen name="keyheight">40dp</dimen>
+    <dimen name="marginleft">0dp</dimen>
+    <dimen name="margintop">10dp</dimen>
+    <dimen name="marginright">0dp</dimen>
+    <dimen name="marginbottom">5dp</dimen>
+</resources>
