@@ -17,6 +17,7 @@ public class MyKeyboardView extends RelativeLayout {
     private final Context mContext;
     private SoftKeyboard mSoftKeyboard;
     private Button[] buttons = new Button[26];
+    private MyTouchListener mTouchListener = new MyTouchListener();
 
     public MyKeyboardView(Context context, AttributeSet attrs){
         super(context, attrs);
@@ -39,6 +40,7 @@ public class MyKeyboardView extends RelativeLayout {
         for (int i=0;i<buttons.length;i++){
             buttons[i] = (Button) findViewById(id+i);
             buttons[i].setOnClickListener(mButtonClickListener);
+            buttons[i].setOnTouchListener(mTouchListener);
         }
     }
 
