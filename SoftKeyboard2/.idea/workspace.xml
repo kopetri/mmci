@@ -79,7 +79,31 @@
           <file leaf-file-name="CandidateView.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/CandidateView.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="143" column="46" selection-start="4858" selection-end="4863" vertical-scroll-proportion="-2.5" vertical-offset="1839" max-vertical-offset="5032">
+                <state line="34" column="0" selection-start="1116" selection-end="1116" vertical-scroll-proportion="31.384615" vertical-offset="969" max-vertical-offset="5032">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="input.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/res/layout/input.xml">
+              <provider editor-type-id="android-designer">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="43" selection-start="921" selection-end="921" vertical-scroll-proportion="-9.48" vertical-offset="171" max-vertical-offset="561">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="drawline.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/res/layout/drawline.xml">
+              <provider editor-type-id="android-designer">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="26" selection-start="274" selection-end="274" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="255">
                   <folding />
                 </state>
               </provider>
@@ -88,7 +112,7 @@
           <file leaf-file-name="LatinKeyboardView.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/LatinKeyboardView.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="46" selection-start="974" selection-end="974" vertical-scroll-proportion="-4.1538463" vertical-offset="317" max-vertical-offset="1020">
+                <state line="41" column="14" selection-start="1392" selection-end="1394" vertical-scroll-proportion="-26.807692" vertical-offset="0" max-vertical-offset="1020">
                   <folding>
                     <element signature="e#0#1811#0" expanded="true" />
                     <element signature="imports" expanded="true" />
@@ -100,17 +124,20 @@
           <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="67" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+                <state line="16" column="0" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LatinKeyboard.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="LatinKeyboard.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/LatinKeyboard.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="99" column="11" selection-start="3526" selection-end="3526" vertical-scroll-proportion="3.8091168" vertical-offset="23" max-vertical-offset="1649">
-                  <folding />
+                <state line="110" column="0" selection-start="3825" selection-end="3825" vertical-scroll-proportion="-22.307692" vertical-offset="967" max-vertical-offset="1649">
+                  <folding>
+                    <element signature="e#2276#2310#0" expanded="true" />
+                    <element signature="e#2499#2535#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -118,7 +145,7 @@
           <file leaf-file-name="DrawLineView.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/DrawLineView.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+                <state line="20" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="1343">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -126,11 +153,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SoftKeyboard.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="SoftKeyboard.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/SoftKeyboard.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="94" column="39" selection-start="3619" selection-end="3619" vertical-scroll-proportion="34.0" vertical-offset="1989" max-vertical-offset="11407">
-                  <folding />
+                <state line="674" column="4" selection-start="26154" selection-end="26154" vertical-scroll-proportion="33.529232" vertical-offset="0" max-vertical-offset="11407">
+                  <folding>
+                    <element signature="e#3333#3383#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -146,44 +175,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="R.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gen/com/example/android/softkeyboard/R.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="19" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Manifest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gen/com/example/android/softkeyboard/Manifest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="1" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="36" selection-start="723" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="input.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/res/layout/input.xml">
-              <provider editor-type-id="android-designer">
-                <state />
-              </provider>
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="0" selection-start="676" selection-end="977" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="561">
+                <state line="20" column="36" selection-start="723" selection-end="725" vertical-scroll-proportion="0.5156695" vertical-offset="159" max-vertical-offset="510">
                   <folding />
                 </state>
               </provider>
@@ -207,10 +206,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="qwerty.xml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="qwerty.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/res/xml/qwerty.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="46" column="55" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.23646724" vertical-offset="699" max-vertical-offset="1394">
+                <state line="46" column="55" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0" vertical-offset="699" max-vertical-offset="1394">
                   <folding />
                 </state>
               </provider>
@@ -253,8 +252,9 @@
         <option value="$PROJECT_DIR$/res/values-land/dimens.xml" />
         <option value="$PROJECT_DIR$/res/xml/qwerty.xml" />
         <option value="$PROJECT_DIR$/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/android/softkeyboard/DrawLineView.java" />
         <option value="$PROJECT_DIR$/src/com/example/android/softkeyboard/LatinKeyboardView.java" />
+        <option value="$PROJECT_DIR$/src/com/example/android/softkeyboard/DrawLineView.java" />
+        <option value="$PROJECT_DIR$/res/layout/drawline.xml" />
         <option value="$PROJECT_DIR$/src/com/example/android/softkeyboard/SoftKeyboard.java" />
       </list>
     </option>
@@ -404,6 +404,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftKeyboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftKeyboard2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -617,6 +635,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -636,7 +655,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -653,34 +671,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/xml/ime_preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="37" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="32" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/example/android/softkeyboard/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/example/android/softkeyboard/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gen/com/example/android/softkeyboard/Manifest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="1" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
@@ -691,27 +681,6 @@
     <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="12" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/qwerty.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="55" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.23646724" vertical-offset="699" max-vertical-offset="1394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="67" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/CandidateView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="46" selection-start="4858" selection-end="4863" vertical-scroll-proportion="-2.5" vertical-offset="1839" max-vertical-offset="5032">
           <folding />
         </state>
       </provider>
@@ -732,16 +701,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/android/inputmethodservice/KeyboardView.class">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="23" selection-start="2241" selection-end="2245" vertical-scroll-proportion="0.3323077" vertical-offset="742" max-vertical-offset="1547">
+        <state line="16" column="0" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/qwerty.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="55" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0" vertical-offset="699" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="36" selection-start="723" selection-end="725" vertical-scroll-proportion="0.5156695" vertical-offset="159" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/CandidateView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1116" selection-end="1116" vertical-scroll-proportion="31.384615" vertical-offset="969" max-vertical-offset="5032">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/DrawLineView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="1343">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/input.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="43" selection-start="921" selection-end="921" vertical-scroll-proportion="-9.48" vertical-offset="171" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/drawline.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="274" selection-end="274" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/LatinKeyboardView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="46" selection-start="974" selection-end="974" vertical-scroll-proportion="-4.1538463" vertical-offset="317" max-vertical-offset="1020">
+        <state line="41" column="14" selection-start="1392" selection-end="1394" vertical-scroll-proportion="-26.807692" vertical-offset="0" max-vertical-offset="1020">
           <folding>
             <element signature="e#0#1811#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -749,26 +768,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/SoftKeyboard.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/android/inputmethodservice/KeyboardView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="39" selection-start="3619" selection-end="3619" vertical-scroll-proportion="34.0" vertical-offset="1989" max-vertical-offset="11407">
+        <state line="69" column="28" selection-start="2801" selection-end="2801" vertical-scroll-proportion="0.042735044" vertical-offset="1141" max-vertical-offset="1547">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/DrawLineView.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/android/inputmethodservice/Keyboard.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="12" column="53" selection-start="455" selection-end="455" vertical-scroll-proportion="0.52991456" vertical-offset="1" max-vertical-offset="1938">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/LatinKeyboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="11" selection-start="3526" selection-end="3526" vertical-scroll-proportion="3.8091168" vertical-offset="23" max-vertical-offset="1649">
-          <folding />
+        <state line="110" column="0" selection-start="3825" selection-end="3825" vertical-scroll-proportion="-22.307692" vertical-offset="967" max-vertical-offset="1649">
+          <folding>
+            <element signature="e#2276#2310#0" expanded="true" />
+            <element signature="e#2499#2535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/android/softkeyboard/SoftKeyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="674" column="4" selection-start="26154" selection-end="26154" vertical-scroll-proportion="33.529232" vertical-offset="0" max-vertical-offset="11407">
+          <folding>
+            <element signature="e#3333#3383#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

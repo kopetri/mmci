@@ -11,32 +11,273 @@
 <com.keyboard.best.MyKeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000" >
+    android:background="#000000">
 
     <LinearLayout
         android:id="@+id/left_panel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:orientation="vertical" >
+        android:orientation="horizontal" >
 
         <Button
             android:id="@+id/btn_1"
-            android:layout_width="85dp"
-            android:layout_height="85dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="10dp"
-            android:text="Button1"
-             />
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright"/>
 
         <Button
             android:id="@+id/btn_2"
-            android:layout_width="85dp"
-            android:layout_height="85dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="5dp"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
             android:text="Button2"
-             />
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_10"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_11"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_12"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_13"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_14"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_15"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_16"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_17"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_18"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_19"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_20"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_21"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_22"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_23"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_24"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_25"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
+
+        <Button
+            android:id="@+id/btn_26"
+            android:layout_width="@dimen/keywidth"
+            android:layout_height="@dimen/keyheight"
+            android:layout_marginBottom="@dimen/marginbottom"
+            android:layout_marginTop="@dimen/margintop"
+            android:text="Button2"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginRight="@dimen/marginright" />
     </LinearLayout>
     />
 </com.keyboard.best.MyKeyboardView>
