@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyQwertzView">
+        <attr name="TextColor" format="color"/>
+        <attr name="TextShadowColor" format="color"/>
+        <attr name="TextHeight" format="dimension"/>
+        <attr name="TextPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="TextMarginTop" format="dimension"/>
+        <attr name="TextMarginLeft" format="dimension"/>
+        <attr name="TextMarginRight" format="dimension"/>
+        <attr name="TextMarginBottom" format="dimension"/>
+        <attr name="KeySpacing" format="dimension"/>
+        <attr name="showText" format="boolean"/>
+    </declare-styleable>
+</resources>
